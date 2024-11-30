@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="48.181851">
+    <testcase classname="General Store App Functionality" name="Verify product selection, cart functionality, and total amount in General Store App" time="48.181851">
+        <system-out><![CDATA[Given I open the General Store app on an android device.....................passed
+When I select "Egypt" from the country dropdown.............................passed
+And I enter my name as "Hesham Abd Elhamed" in the text field...............passed
+And I select "Male" as my gender............................................passed
+And I click on the Let’s Shop button........................................passed
+Then I add the first product to the cart....................................passed
+And I add the second product to the cart....................................passed
+When I navigate to the cart screen..........................................passed
+Then I verify that the selected products are displayed in the cart..........passed
+And I assert that the total amount equals the sum of the two products' values.passed
+Then i close the android app................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

@@ -1,0 +1,173 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Verify product selection, cart functionality, and total amount in General Store App",
+        "description": "",
+        "id": "general-store-app-functionality;verify-product-selection--cart-functionality--and-total-amount-in-general-store-app",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 15071923500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I open the General Store app on an android device",
+            "match": {
+              "location": "Task1.openApp()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 22053831300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I select \"Egypt\" from the country dropdown",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Egypt\"",
+                  "offset": 9
+                }
+              ],
+              "location": "Task1.selectCountry(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2917703400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I enter my name as \"Hesham Abd Elhamed\" in the text field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Hesham Abd Elhamed\"",
+                  "offset": 19
+                }
+              ],
+              "location": "Task1.enterName(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 663835300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I select \"Male\" as my gender",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Male\"",
+                  "offset": 9
+                }
+              ],
+              "location": "Task1.selectGender(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 614033499,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on the Let’s Shop button",
+            "match": {
+              "location": "Task1.clickButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2119955600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I add the first product to the cart",
+            "match": {
+              "location": "Task1.addFirstProduct()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 772423401,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I add the second product to the cart",
+            "match": {
+              "location": "Task1.addSecondProduct()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1403644300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I navigate to the cart screen",
+            "match": {
+              "location": "Task1.navigateToCart()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 932323000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I verify that the selected products are displayed in the cart",
+            "match": {
+              "location": "Task1.verifyProducts()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 362028999,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I assert that the total amount equals the sum of the two products\u0027 values",
+            "match": {
+              "location": "Task1.verifyTotalAmount()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1226393500,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "i close the android app",
+            "match": {
+              "location": "Task1.closeapp()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "General Store App Functionality",
+    "description": "",
+    "id": "general-store-app-functionality",
+    "keyword": "Feature",
+    "uri": "C:/1-H/Projects/KatalonStudio/Flairstech_Task/Include/features/Task/Task1.feature",
+    "tags": []
+  }
+]

@@ -1,0 +1,185 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "BDD_TESTRUN_UUID": "7343f00b-ad3f-4b2f-abbc-3a61597a350d",
+        "line": 3,
+        "name": "Verify product selection, cart functionality, and total amount in General Store App",
+        "description": "",
+        "id": "general-store-app-functionality;verify-product-selection--cart-functionality--and-total-amount-in-general-store-app",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 15071923500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I open the General Store app on an android device",
+            "match": {
+              "location": "Task1.openApp()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "2123d797-b3fa-489f-9fd1-4ea110eb7e4e"
+          },
+          {
+            "result": {
+              "duration": 22053831300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I select \"Egypt\" from the country dropdown",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Egypt\"",
+                  "offset": 9
+                }
+              ],
+              "location": "Task1.selectCountry(String)"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "7478d49d-29ec-46eb-988f-c8ed0bf3b99a"
+          },
+          {
+            "result": {
+              "duration": 2917703400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I enter my name as \"Hesham Abd Elhamed\" in the text field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Hesham Abd Elhamed\"",
+                  "offset": 19
+                }
+              ],
+              "location": "Task1.enterName(String)"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "142b0779-e874-4a4d-bca2-39e1a118adfc"
+          },
+          {
+            "result": {
+              "duration": 663835300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I select \"Male\" as my gender",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Male\"",
+                  "offset": 9
+                }
+              ],
+              "location": "Task1.selectGender(String)"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "ee68034d-a97f-4e76-bdf6-ed66fd039d3b"
+          },
+          {
+            "result": {
+              "duration": 614033499,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on the Let’s Shop button",
+            "match": {
+              "location": "Task1.clickButton()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "20128712-b95f-4905-84e4-f20d26bfebfa"
+          },
+          {
+            "result": {
+              "duration": 2119955600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I add the first product to the cart",
+            "match": {
+              "location": "Task1.addFirstProduct()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "ec81c8b8-68da-40b8-97d2-e3ed4a1740b9"
+          },
+          {
+            "result": {
+              "duration": 772423401,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I add the second product to the cart",
+            "match": {
+              "location": "Task1.addSecondProduct()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "2e06e243-307d-4dd8-8c29-68dfd12c6e8f"
+          },
+          {
+            "result": {
+              "duration": 1403644300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I navigate to the cart screen",
+            "match": {
+              "location": "Task1.navigateToCart()"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "07ad6dca-caab-41f7-aac9-9d91091a88cd"
+          },
+          {
+            "result": {
+              "duration": 932323000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I verify that the selected products are displayed in the cart",
+            "match": {
+              "location": "Task1.verifyProducts()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "8cf24200-a9c6-4da6-b707-ee3209d58b33"
+          },
+          {
+            "result": {
+              "duration": 362028999,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I assert that the total amount equals the sum of the two products\u0027 values",
+            "match": {
+              "location": "Task1.verifyTotalAmount()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "5f4e49ed-3099-42ec-9534-dc72f26b0726"
+          },
+          {
+            "result": {
+              "duration": 1226393500,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "i close the android app",
+            "match": {
+              "location": "Task1.closeapp()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "c9f584d2-6c80-48ad-ab70-f35935f8af10"
+          }
+        ]
+      }
+    ],
+    "name": "General Store App Functionality",
+    "description": "",
+    "id": "general-store-app-functionality",
+    "keyword": "Feature",
+    "uri": "C:/1-H/Projects/KatalonStudio/Flairstech_Task/Include/features/Task/Task1.feature",
+    "tags": []
+  }
+]

@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="BDD Test Suite" time="49.253" tests="1" failures="0" errors="0">
+   <testsuite name="BDD Test Suite" tests="1" failures="0" errors="0" time="49.253" skipped="0" timestamp="30-11-2024T15:53:41" hostname="Hesha - host.docker.internal" id="Test Suites/BDD Test Suite">
+      <properties>
+         <property name="deviceName" value="emulator-5554 (sdk_gphone64_x86_64 - Android 14)"/>
+         <property name="devicePlatform" value="Android"/>
+         <property name="logFolder" value="C:\\1-H\\Projects\\KatalonStudio\\Flairstech_Task\\Reports\\20241130_155336\\BDD Test Suite\\20241130_155337"/>
+         <property name="logFiles" value="C:\\1-H\\Projects\\KatalonStudio\\Flairstech_Task\\Reports\\20241130_155336\\BDD Test Suite\\20241130_155337\\appium.log, C:\\1-H\\Projects\\KatalonStudio\\Flairstech_Task\\Reports\\20241130_155336\\BDD Test Suite\\20241130_155337\\appium_error.log, C:\\1-H\\Projects\\KatalonStudio\\Flairstech_Task\\Reports\\20241130_155336\\BDD Test Suite\\20241130_155337\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Hesha - host.docker.internal"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;ready&quot;:true,&quot;message&quot;:&quot;The server is ready to accept new connections&quot;,&quot;build&quot;:{&quot;version&quot;:&quot;2.12.2&quot;}}}"/>
+         <property name="katalonVersion" value="10.0.0.223"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="2.12.2"/>
+         <property name="deviceModel" value="sdk_gphone64_x86_64"/>
+         <property name="hostAddress" value="192.168.1.9"/>
+         <property name="deviceManufacturer" value="Google"/>
+         <property name="deviceId" value="emulator-5554"/>
+         <property name="deviceName" value="emulator-5554 (sdk_gphone64_x86_64 - Android 14)"/>
+         <property name="deviceOSVersion" value="14"/>
+      </properties>
+      <testcase name="Test Cases/Cucumber Test Case" time="48.727" classname="Test Cases/Cucumber Test Case" status="PASSED">
+         <system-out><![CDATA[30-11-2024T15:53:42 - [TEST_CASE][PASSED] - Test Cases/Cucumber Test Case: Test Cases/Cucumber Test Case
+
+30-11-2024T15:53:42 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+30-11-2024T15:53:42 - [TEST_STEP][PASSED] - GLUE = ["task"]: null
+
+30-11-2024T15:53:42 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/Task/Task1.feature"): Feature file: 'Include/features/Task/Task1.feature' was passed
+
+30-11-2024T15:53:42 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/Task/Task1.feature' and extract report to folder: 'C:\1-H\Projects\KatalonStudio\Flairstech_Task\Reports\20241130_155336\BDD Test Suite\20241130_155337/cucumber_report/1732974822154'...
+
+30-11-2024T15:53:42 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Verify product selection, cart functionality, and total amount in General Store App: SCENARIO Verify product selection, cart functionality, and total amount in General Store App
+
+30-11-2024T15:53:42 - [TEST_STEP][PASSED] - I open the General Store app on an android device: I open the General Store app on an android device
+
+30-11-2024T15:53:42 - [MESSAGE][INFO] - Starting application: 'C:\1-H\Projects\KatalonStudio\Flairstech_Task\androidapp\General-Store.apk'
+
+30-11-2024T15:53:42 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+30-11-2024T15:53:48 - [MESSAGE][INFO] - PATH: C:\Program Files\nodejs;
+
+30-11-2024T15:53:48 - [MESSAGE][INFO] - APPIUM_HOME: C:\Users\Hesha\.appium
+
+30-11-2024T15:53:48 - [MESSAGE][INFO] - appium outlog: C:\1-H\Projects\KatalonStudio\Flairstech_Task\Reports\20241130_155336\BDD Test Suite\20241130_155337\appium.log
+
+30-11-2024T15:53:48 - [MESSAGE][INFO] - appium errlog: C:\1-H\Projects\KatalonStudio\Flairstech_Task\Reports\20241130_155336\BDD Test Suite\20241130_155337\appium_error.log
+
+30-11-2024T15:53:52 - [MESSAGE][INFO] - Appium server started on port 49,981
+
+30-11-2024T15:53:57 - [MESSAGE][PASSED] - Started application: 'C:\1-H\Projects\KatalonStudio\Flairstech_Task\androidapp\General-Store.apk'
+
+30-11-2024T15:53:57 - [MESSAGE][PASSED] - I open the General Store app on an android device
+
+30-11-2024T15:53:57 - [TEST_STEP][PASSED] - I select "Egypt" from the country dropdown: I select "Egypt" from the country dropdown
+
+30-11-2024T15:53:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+30-11-2024T15:54:01 - [MESSAGE][PASSED] - Element 'Object Repository/Pages/android.widget.Spinner Country Dropdown list' is present
+
+30-11-2024T15:54:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+30-11-2024T15:54:01 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Pages/android.widget.Spinner Country Dropdown list'
+
+30-11-2024T15:54:18 - [MESSAGE][PASSED] - Scrolling to text 'Egypt' successfully
+
+30-11-2024T15:54:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+30-11-2024T15:54:19 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Pages/android.widget.TextView - Egypt (1)'
+
+30-11-2024T15:54:19 - [MESSAGE][PASSED] - I select "Egypt" from the country dropdown
+
+30-11-2024T15:54:19 - [TEST_STEP][PASSED] - I enter my name as "Hesham Abd Elhamed" in the text field: I enter my name as "Hesham Abd Elhamed" in the text field
+
+30-11-2024T15:54:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+30-11-2024T15:54:21 - [MESSAGE][PASSED] - Text 'Hesham Abd Elhamed' has been set to element 'Object Repository/Pages/android.widget.EditText - user name textbox'
+
+30-11-2024T15:54:22 - [MESSAGE][PASSED] - Keyboard is hidden
+
+30-11-2024T15:54:22 - [MESSAGE][PASSED] - I enter my name as "Hesham Abd Elhamed" in the text field
+
+30-11-2024T15:54:22 - [TEST_STEP][PASSED] - I select "Male" as my gender: I select "Male" as my gender
+
+30-11-2024T15:54:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+30-11-2024T15:54:23 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Pages/android.widget.RadioButton - Male'
+
+30-11-2024T15:54:23 - [MESSAGE][PASSED] - I select "Male" as my gender
+
+30-11-2024T15:54:23 - [TEST_STEP][PASSED] - I click on the Let’s Shop button: I click on the Let’s Shop button
+
+30-11-2024T15:54:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+30-11-2024T15:54:23 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Pages/android.widget.Button - Lets Shop btn'
+
+30-11-2024T15:54:23 - [MESSAGE][PASSED] - I click on the Let’s Shop button
+
+30-11-2024T15:54:23 - [TEST_STEP][PASSED] - I add the first product to the cart: I add the first product to the cart
+
+30-11-2024T15:54:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+30-11-2024T15:54:25 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Pages/android.widget.TextView - First Product'
+
+30-11-2024T15:54:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+30-11-2024T15:54:25 - [MESSAGE][PASSED] - Text of element 'Object Repository/Pages/android.widget.TextView - First Product Name1' is: 'Air Jordan 4 Retro'
+
+30-11-2024T15:54:25 - [MESSAGE][PASSED] - I add the first product to the cart
+
+30-11-2024T15:54:25 - [TEST_STEP][PASSED] - I add the second product to the cart: I add the second product to the cart
+
+30-11-2024T15:54:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+30-11-2024T15:54:26 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Pages/android.widget.TextView - Second Product'
+
+30-11-2024T15:54:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+30-11-2024T15:54:26 - [MESSAGE][PASSED] - Text of element 'Object Repository/Pages/android.widget.TextView - Second Product Name1' is: 'Air Jordan 1 Mid SE'
+
+30-11-2024T15:54:26 - [MESSAGE][PASSED] - I add the second product to the cart
+
+30-11-2024T15:54:26 - [TEST_STEP][PASSED] - I navigate to the cart screen: I navigate to the cart screen
+
+30-11-2024T15:54:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+30-11-2024T15:54:28 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Pages/android.widget.ImageButton Cart btn'
+
+30-11-2024T15:54:28 - [MESSAGE][PASSED] - I navigate to the cart screen
+
+30-11-2024T15:54:28 - [TEST_STEP][PASSED] - I verify that the selected products are displayed in the cart: I verify that the selected products are displayed in the cart
+
+30-11-2024T15:54:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+30-11-2024T15:54:28 - [MESSAGE][PASSED] - Element 'Object Repository/Pages/android.widget.TextView - First Product Name1' is exist
+
+30-11-2024T15:54:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+30-11-2024T15:54:28 - [MESSAGE][PASSED] - Element 'Object Repository/Pages/android.widget.TextView - Second Product Name1' is exist
+
+30-11-2024T15:54:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+30-11-2024T15:54:28 - [MESSAGE][PASSED] - Element 'Object Repository/Pages/android.widget.TextView - First Product Name1' is visible
+
+30-11-2024T15:54:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+30-11-2024T15:54:28 - [MESSAGE][PASSED] - Element 'Object Repository/Pages/android.widget.TextView - Second Product Name1' is visible
+
+30-11-2024T15:54:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+30-11-2024T15:54:28 - [MESSAGE][PASSED] - Text of element 'Object Repository/Pages/android.widget.TextView - First Product Name1' is: 'Air Jordan 4 Retro'
+
+30-11-2024T15:54:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+30-11-2024T15:54:28 - [MESSAGE][PASSED] - Text of element 'Object Repository/Pages/android.widget.TextView - Second Product Name1' is: 'Air Jordan 1 Mid SE'
+
+30-11-2024T15:54:28 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Pages/android.widget.TextView - First Product Name1' are matched.
+
+30-11-2024T15:54:29 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Pages/android.widget.TextView - Second Product Name1' are matched.
+
+30-11-2024T15:54:29 - [MESSAGE][PASSED] - Actual object 'Air Jordan 4 Retro' and expected object 'Air Jordan 4 Retro' are equal
+
+30-11-2024T15:54:29 - [MESSAGE][PASSED] - Actual object 'Air Jordan 1 Mid SE' and expected object 'Air Jordan 1 Mid SE' are equal
+
+30-11-2024T15:54:29 - [MESSAGE][PASSED] - I verify that the selected products are displayed in the cart
+
+30-11-2024T15:54:29 - [TEST_STEP][PASSED] - I assert that the total amount equals the sum of the two products' values: I assert that the total amount equals the sum of the two products' values
+
+30-11-2024T15:54:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+30-11-2024T15:54:29 - [MESSAGE][PASSED] - Text of element 'Object Repository/Pages/android.widget.TextView - First Product Price' is: '$160.97'
+
+30-11-2024T15:54:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+30-11-2024T15:54:29 - [MESSAGE][PASSED] - Text of element 'Object Repository/Pages/android.widget.TextView - Second Product Price' is: '$120.0'
+
+30-11-2024T15:54:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+30-11-2024T15:54:29 - [MESSAGE][PASSED] - Text of element 'Object Repository/Pages/android.widget.TextView - Total Price' is: '$ 280.97'
+
+30-11-2024T15:54:29 - [MESSAGE][PASSED] - Actual object '280.97' and expected object '280.97' are equal
+
+30-11-2024T15:54:29 - [MESSAGE][PASSED] - I assert that the total amount equals the sum of the two products' values
+
+30-11-2024T15:54:29 - [TEST_STEP][PASSED] - i close the android app: i close the android app
+
+30-11-2024T15:54:30 - [MESSAGE][PASSED] - Close app successfully
+
+30-11-2024T15:54:30 - [MESSAGE][PASSED] - i close the android app
+
+30-11-2024T15:54:30 - [MESSAGE][PASSED] - Feature file: 'Include/features/Task/Task1.feature' was passed
+
+30-11-2024T15:54:30 - [TEST_STEP][ERROR] - Start listener action : sampleAfterTestCase: com.kms.katalon.core.exception.StepFailedException: Unable to close app
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:64)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:34)
+	at com.kms.katalon.core.mobile.keyword.builtin.CloseApplicationKeyword.closeApplication(CloseApplicationKeyword.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.CloseApplicationKeyword.execute(CloseApplicationKeyword.groovy:35)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.closeApplication(MobileBuiltInKeywords.groovy:131)
+	at Listener.sampleAfterTestCase(Listener.groovy:34)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:315)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:161)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:176)
+	at TempTestSuite1732974817660.run(TempTestSuite1732974817660.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: No driver found
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileAbstractKeyword.getAnyAppiumDriver(MobileAbstractKeyword.groovy:43)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.mobile.keyword.builtin.CloseApplicationKeyword$_closeApplication_closure1.doCall(CloseApplicationKeyword.groovy:41)
+	at com.kms.katalon.core.mobile.keyword.builtin.CloseApplicationKeyword$_closeApplication_closure1.call(CloseApplicationKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:30)
+	... 23 more
+
+
+30-11-2024T15:54:30 - [TEST_STEP][ERROR] - closeApplication(): com.kms.katalon.core.exception.StepFailedException: Unable to close app
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:64)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:34)
+	at com.kms.katalon.core.mobile.keyword.builtin.CloseApplicationKeyword.closeApplication(CloseApplicationKeyword.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.CloseApplicationKeyword.execute(CloseApplicationKeyword.groovy:35)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.closeApplication(MobileBuiltInKeywords.groovy:131)
+	at Listener.sampleAfterTestCase(Listener.groovy:34)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:315)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:161)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:176)
+	at TempTestSuite1732974817660.run(TempTestSuite1732974817660.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: No driver found
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileAbstractKeyword.getAnyAppiumDriver(MobileAbstractKeyword.groovy:43)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.mobile.keyword.builtin.CloseApplicationKeyword$_closeApplication_closure1.doCall(CloseApplicationKeyword.groovy:41)
+	at com.kms.katalon.core.mobile.keyword.builtin.CloseApplicationKeyword$_closeApplication_closure1.call(CloseApplicationKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:30)
+	... 23 more
+
+
+30-11-2024T15:54:30 - [MESSAGE][FAILED] - Unable to close app (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to close app
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:64)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:34)
+	at com.kms.katalon.core.mobile.keyword.builtin.CloseApplicationKeyword.closeApplication(CloseApplicationKeyword.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.CloseApplicationKeyword.execute(CloseApplicationKeyword.groovy:35)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.closeApplication(MobileBuiltInKeywords.groovy:131)
+	at Listener.sampleAfterTestCase(Listener.groovy:34)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:315)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:161)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:176)
+	at TempTestSuite1732974817660.run(TempTestSuite1732974817660.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: No driver found
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileAbstractKeyword.getAnyAppiumDriver(MobileAbstractKeyword.groovy:43)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.mobile.keyword.builtin.CloseApplicationKeyword$_closeApplication_closure1.doCall(CloseApplicationKeyword.groovy:41)
+	at com.kms.katalon.core.mobile.keyword.builtin.CloseApplicationKeyword$_closeApplication_closure1.call(CloseApplicationKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:30)
+	... 23 more
+)
+
+30-11-2024T15:54:30 - [MESSAGE][ERROR] - com.kms.katalon.core.exception.StepFailedException: Unable to close app
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:64)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:34)
+	at com.kms.katalon.core.mobile.keyword.builtin.CloseApplicationKeyword.closeApplication(CloseApplicationKeyword.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.CloseApplicationKeyword.execute(CloseApplicationKeyword.groovy:35)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.closeApplication(MobileBuiltInKeywords.groovy:131)
+	at Listener.sampleAfterTestCase(Listener.groovy:34)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:315)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:161)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:176)
+	at TempTestSuite1732974817660.run(TempTestSuite1732974817660.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: No driver found
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileAbstractKeyword.getAnyAppiumDriver(MobileAbstractKeyword.groovy:43)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.mobile.keyword.builtin.CloseApplicationKeyword$_closeApplication_closure1.doCall(CloseApplicationKeyword.groovy:41)
+	at com.kms.katalon.core.mobile.keyword.builtin.CloseApplicationKeyword$_closeApplication_closure1.call(CloseApplicationKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:30)
+	... 23 more]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[30-11-2024T15:53:41 - [TEST_SUITE][PASSED] - BDD Test Suite: Test Cases/Cucumber Test Case]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
