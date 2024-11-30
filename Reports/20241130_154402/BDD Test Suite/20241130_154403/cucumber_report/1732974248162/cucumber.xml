@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="0.050886">
+    <testcase classname="General Store App Functionality" name="Verify product selection, cart functionality, and total amount in General Store App" time="0.050886">
+        <failure message="The scenario has pending or undefined step(s)"><![CDATA[Given I open the General Store app on an android device.....................undefined
+When I select "Egypt" from the country dropdown.............................undefined
+And I enter my name as "Hesham Abd Elhamed" in the text field...............undefined
+And I select "Male" as my gender............................................undefined
+And I click on the Let’s Shop button........................................undefined
+Then I add the first product to the cart....................................undefined
+And I add the second product to the cart....................................undefined
+When I navigate to the cart screen..........................................undefined
+Then I verify that the selected products are displayed in the cart..........undefined
+And I assert that the total amount equals the sum of the two products' values.undefined
+Then i close the android app................................................undefined
+]]></failure>
+    </testcase>
+</testsuite>

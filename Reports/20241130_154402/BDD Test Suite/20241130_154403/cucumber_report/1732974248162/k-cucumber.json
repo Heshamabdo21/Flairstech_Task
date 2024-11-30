@@ -1,0 +1,134 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "BDD_TESTRUN_UUID": "f8f64424-5324-4f58-9cbb-af6eb2ccde8f",
+        "line": 3,
+        "name": "Verify product selection, cart functionality, and total amount in General Store App",
+        "description": "",
+        "id": "general-store-app-functionality;verify-product-selection--cart-functionality--and-total-amount-in-general-store-app",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 4,
+            "name": "I open the General Store app on an android device",
+            "match": {},
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "13d44e5c-13a4-4944-a31a-b7743d0e460c"
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "I select \"Egypt\" from the country dropdown",
+            "match": {},
+            "keyword": "When ",
+            "BDD_STEP_UUID": "dfe595bd-6753-495d-a9e0-483595044d5d"
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "I enter my name as \"Hesham Abd Elhamed\" in the text field",
+            "match": {},
+            "keyword": "And ",
+            "BDD_STEP_UUID": "6805e0cc-3403-4231-a2fa-212c3dfc7364"
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "I select \"Male\" as my gender",
+            "match": {},
+            "keyword": "And ",
+            "BDD_STEP_UUID": "a0aa92c2-dc7b-43e9-9f30-6ea56315fb2c"
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "I click on the Let’s Shop button",
+            "match": {},
+            "keyword": "And ",
+            "BDD_STEP_UUID": "3f1bb228-e34a-4262-9d48-1efe60e14046"
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "I add the first product to the cart",
+            "match": {},
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "a03d3856-716a-48f8-a976-6bb07e1d8215"
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10,
+            "name": "I add the second product to the cart",
+            "match": {},
+            "keyword": "And ",
+            "BDD_STEP_UUID": "e4ad773e-4968-4075-927f-4787123738ca"
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11,
+            "name": "I navigate to the cart screen",
+            "match": {},
+            "keyword": "When ",
+            "BDD_STEP_UUID": "616ed252-ad38-4aab-869f-c16629549c3d"
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 12,
+            "name": "I verify that the selected products are displayed in the cart",
+            "match": {},
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "57f2a8a0-c16b-4670-b117-122b82c229cd"
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 13,
+            "name": "I assert that the total amount equals the sum of the two products\u0027 values",
+            "match": {},
+            "keyword": "And ",
+            "BDD_STEP_UUID": "93960fb3-ceaf-4c3f-aaaf-865302c7cbad"
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 14,
+            "name": "i close the android app",
+            "match": {},
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "8a2d2382-291b-458d-894e-a2fe7b7554d1"
+          }
+        ]
+      }
+    ],
+    "name": "General Store App Functionality",
+    "description": "",
+    "id": "general-store-app-functionality",
+    "keyword": "Feature",
+    "uri": "C:/1-H/Projects/KatalonStudio/Flairstech_Task/Include/features/Task/Task1.feature",
+    "tags": []
+  }
+]

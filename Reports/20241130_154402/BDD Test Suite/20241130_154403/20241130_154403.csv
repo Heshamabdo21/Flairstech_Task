@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+BDD Test Suite,,,,30-11-2024 15:44:07,30-11-2024 15:44:08,1.239s,FAILED
+,,,,,,,
+Test Cases/Cucumber Test Case,,,,30-11-2024 15:44:08,30-11-2024 15:44:08,0.837s,FAILED
+Start listener action : beforeTestCase,,,,30-11-2024 15:44:08,30-11-2024 15:44:08,0.030s,PASSED
+"runFeatureFile(""Include/features/Task/Task1.feature"")",,,,30-11-2024 15:44:08,30-11-2024 15:44:08,0.553s,FAILED
+Start listener action : sampleAfterTestCase,,,,30-11-2024 15:44:08,30-11-2024 15:44:08,0.211s,ERROR
